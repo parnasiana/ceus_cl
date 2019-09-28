@@ -11,7 +11,7 @@ publish_mode: editorial_workflow
 collections:
   - name: "blog"
     label: "Blog"
-    folder: "parnasiana/ceus_cl/content/blog/"
+    folder: "/content/blog/"
     create: true
     slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
     fields:
