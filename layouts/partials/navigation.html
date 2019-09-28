@@ -1,0 +1,40 @@
+{{ "<!-- Navigation Start  -->" | safeHTML }}
+
+	<nav id="navigation">
+        <div class="container">
+            <div class="row no-margin">
+                <div class="col-md-12">
+                    <div class="block">
+                        <nav class="navbar navbar-default">
+                          <div class="container-fluid">
+                            <!-- Brand and toggle get grouped for better mobile display -->
+                            <div class="navbar-header">
+                              <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                                <span class="sr-only">Toggle navigation</span>
+                                <span class="icon-bar"></span>
+                                <span class="icon-bar"></span>
+                                <span class="icon-bar"></span>
+                              </button>
+                              {{"<!-- logo -->" | safeHTML}}
+                                  <a class="navbar-brand" href="{{ .Site.BaseURL | absURL }}">
+                                    <img src="{{ .Site.Params.logo | absURL }}" alt="Logo">
+                                  </a>
+                              {{"<!-- logo -->" | safeHTML}}
+
+                            </div>    
+                            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                              <ul class="nav navbar-nav navbar-right" id="top-nav">
+                                <li><a href="/"class="no-event">Inicio</a></li>
+                                <li><a href="/aboutus/"class="no-event">Sobre Nosotros</a></li>
+                                <li><a href="/#blog "class="no-event">Blog</a></li>
+                                <li><a href="/form/"class="no-event">Colabora</a></li>
+                                <li><a href="/#subscribe"class="no-event">Síguenos!</a></li>
+                              </ul>
+                            </div><!-- /.navbar-collapse -->
+                          </div><!-- /.container-fluid -->
+                        </nav>
+                    </div>
+                </div><!-- .col-md-12 close -->
+            </div><!-- .row close -->
+        </div><!-- .container close -->
+	</nav><!-- header close -->

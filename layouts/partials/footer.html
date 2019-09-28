@@ -1,0 +1,94 @@
+{{ if .Site.Params.footer.enable }}
+    <section id="footer">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="block wow fadeInLeft"  data-wow-delay="200ms">
+                         <a href="#hero-area" class="foot-logo"><img src="https://letb.s3-sa-east-1.amazonaws.com/CEUS/ceus_logonav.png"></a>
+                    </div>
+                </div>
+                <!-- .col-md-4 close -->
+                <div class="col-md-4">
+                        <div class="block wow fadeInLeft foot-information"  data-wow-delay="200ms">
+                                <h3>{{ with .Site.Params.footer.contactInfoTitle }} {{ . | safeHTML }} {{ end }}</h3>
+                                <div class="info">
+                                    <ul>
+                                        {{ range $.Site.Params.footer.contactItem }}
+                                        <li>
+                                          <h4><i class="{{.icon}}"></i>{{ .title }}</h4>
+                                          <p>{{ .content }}</p>
+                                            
+                                        </li>
+                                        {{end}}
+                                    </ul>
+                                </div>
+                            </div>
+                </div>
+                <!-- .col-md-4 close -->
+                <div class="col-md-4">
+                    <div class="block wow fadeInLeft foot-information"  data-wow-delay="200ms">
+                        <h3>{{ with .Site.Params.footer.socialTitle }} {{ . | safeHTML }} {{ end }}</h3>
+                            <ul>
+                                {{ range $.Site.Params.footer.socialLink }} 
+                                <li class="list-social">
+                                    <a href="{{ .link }}" class="rrss-btns" target="_blank">
+                                        <i class="{{ .icon }}"></i>
+                                        <p class="social-title-foot">{{.title}}</p>
+                                    </a>
+                                </li>
+                                {{ end }}
+                            </ul>
+                        </div>
+                    </div>
+                    
+                <!-- .col-md-4 close -->
+            </div><!-- .row close -->
+        </div><!-- .containe close -->
+    </section><!-- #footer close -->
+{{ end }}
+
+
+        {{"<!-- Main jQuery -->" | safeHTML}}
+        <script type="text/javascript" src="{{ "js/jquery-3.4.1.min.js" | absURL}}"></script>
+        
+        {{"<!-- Bootstrap 3.1 -->" | safeHTML}}
+        <script type="text/javascript" src="{{ "js/bootstrap.min.js" | absURL}}"></script>
+        
+
+        {{"<!-- jQuery Nav -->" | safeHTML}}
+        <script src="{{ "js/jquery.nav.js" | absURL}}"></script>
+        
+        {{"<!-- jQuery Sticky -->" | safeHTML}}
+        <script src="{{ "js/jquery.sticky.js" | absURL}}"></script>
+
+        {{"<!-- Bootstrap js -->" | safeHTML}}
+        <script src="{{ "js/bootstrap.min.js" | absURL}}"></script>
+        
+        {{"<!-- Plugin js -->" | safeHTML}}
+        <script src="{{ "js/plugins.js" | absURL}}"></script>
+        
+        {{"<!-- wow js for animation -->" | safeHTML}}
+        <script src="{{ "js/wow.min.js" | absURL}}"></script>
+        
+        {{"<!-- Main Js file -->" | safeHTML}}
+        <script src="{{ "js/main.js" | absURL}}"></script>        
+
+        {{"<!-- Letb Js file -->" | safeHTML}}
+        <script src="{{ "js/letb.js" | absURL}}"></script>
+
+        {{"<!-- Select2 Js file -->" | safeHTML}}
+        <script src="{{ "js/select2.min.js" | absURL}}"></script>
+
+        <script>
+          if (window.netlifyIdentity) {
+            window.netlifyIdentity.on("init", user => {
+              if (!user) {
+                window.netlifyIdentity.on("login", () => {
+                  document.location.href = "/admin/";
+                });
+              }
+            });
+          }
+        </script>
+    </body>
+</html>

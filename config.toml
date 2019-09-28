@@ -1,0 +1,321 @@
+baseURL = "https://www.ceuschile.cl"
+languageCode = "en-us"
+title = "CEUS Chile | La red de sustentabilidad"
+theme="restaurant-hugo"
+summaryLength = "7"
+js = ["static/letb.js"]
+
+[wordCount]
+other = "{{ .WordCount }} words"
+
+[taxonomies]
+  author = "authors"
+  tag = "tags"
+
+[permalinks]
+  blog = "/:filename/"
+
+[context.production.environment]
+    HUGO_VERSION = "0.55.6"
+    HUGO_ENV = "production"
+    HUGO_ENABLEGITINFO = "true"
+
+
+
+[context.deploy-preview.environment]
+    HUGO_VERSION = "0.53"
+
+[context.split1]
+    command = "hugo --gc --minify --enableGitInfo"
+
+[context.split1.environment]
+    HUGO_VERSION = "0.55.6"
+    HUGO_ENV = "production"
+
+[context.deploy-preview]
+    command = "hugo --gc --minify --buildFuture -b $DEPLOY_PRIME_URL"
+
+[context.branch-deploy]
+    command = "hugo --gc --minify -b $DEPLOY_PRIME_URL"
+
+[context.branch-deploy.environment]
+    HUGO_VERSION = "0.55.6"
+
+[context.next.environment]
+    HUGO_ENABLEGITINFO = "true"
+
+
+[build]
+publish = "public"
+command = "hugo --gc --minify"
+
+
+# Menu
+[menu]
+	
+	[[menu.nav]]
+    name = "Inicio"
+    URL = "/"
+    weight = 1
+
+    [[menu.nav]]
+    name = "Sobre Nosotros"
+    URL = "/aboutus/"
+    weight = 2
+    
+
+    [[menu.nav]]
+    name = "Blog"
+    URL = "#blog"
+    weight = 3
+
+    [[menu.nav]]
+    name = "Colabora con CEUS!"
+    URL = "/form/"
+    weight = 4
+
+    [[menu.nav]]
+    name = "Síguenos"
+    URL = "#subscribe"
+    weight = 5
+
+
+
+
+# Global Settings
+[params]
+logo = "https://letb.s3-sa-east-1.amazonaws.com/CEUS/ceus_horizontal_white.png"
+
+
+[params.heroArea]
+enable = true
+[params.heroImg ] 
+url =  "images/header.jpg" 
+
+
+#gallery item
+
+[params.gallery]
+enable = true
+title= "Los temas de nuestro <span>Blog</span>"
+
+[[params.gallery.item]]
+img = "https://letb.s3-sa-east-1.amazonaws.com/CEUS/Blog+icons/ceus_news_icon_noBack.png"
+ceusBlogTitle = "Noticias"
+URL = "/tags/noticias/"
+
+[[params.gallery.item]]
+img = "https://letb.s3-sa-east-1.amazonaws.com/CEUS/Blog+icons/ceus_society_icon_noBack.png"
+ceusBlogTitle = "Sociedad"
+URL = "/tags/sociedad/"
+
+[[params.gallery.item]]
+img = "https://letb.s3-sa-east-1.amazonaws.com/CEUS/Blog+icons/ceus_education_icon_noBack.png"
+ceusBlogTitle = "Educación"
+URL = "/tags/educación/"
+
+[[params.gallery.item]]
+img = "https://letb.s3-sa-east-1.amazonaws.com/CEUS/Blog+icons/ceus_conference_icon_noBack.png"
+ceusBlogTitle = "Congreso"
+URL = "/tags/congreso"
+
+[[params.gallery.item]]
+img = "https://letb.s3-sa-east-1.amazonaws.com/CEUS/Blog+icons/ceus_environment_icon_noBack.png"
+ceusBlogTitle = "Medio Ambiente"
+URL = "/tags/medio-ambiente/"
+
+[[params.gallery.item]]
+img = "https://letb.s3-sa-east-1.amazonaws.com/CEUS/Blog+icons/ceus_opinion_icon_noBack.png"
+ceusBlogTitle = "Opinión"
+URL = "/tags/opinión"
+
+[[params.gallery.item]]
+img = "https://letb.s3-sa-east-1.amazonaws.com/CEUS/Blog+icons/ceus_sustainableDevelopment_icon_noBack.png"
+ceusBlogTitle = "Desarrollo Sustentable"
+URL = "/tags/desarrollo-sustentable/"
+
+[[params.gallery.item]]
+img = "https://letb.s3-sa-east-1.amazonaws.com/CEUS/Blog+icons/ceus_projects_icon_noBack.png"
+ceusBlogTitle = "Proyectos"
+URL = "/tags/proyectos/"
+
+[[params.gallery.item]]
+img = "https://letb.s3-sa-east-1.amazonaws.com/CEUS/Blog+icons/ceus_sustainableLeaders_icon_noBack.png"
+ceusBlogTitle = "Líderes Sustentables"
+URL = "/tags/líderes-sustentables/"
+
+
+[params.about]
+enable = true
+title= "Hemos <span>trabajado con</span>"
+MMAImage = "https://letb.s3-sa-east-1.amazonaws.com/CEUS/Aliados/ceus_logo_MMA.jpg"
+FCFMImage = "https://letb.s3-sa-east-1.amazonaws.com/CEUS/Aliados/ceus_logo_FCFM.jpg"
+entelImage = "https://letb.s3-sa-east-1.amazonaws.com/CEUS/Aliados/ceus_logo_entel.jpg"
+voloImage = "https://letb.s3-sa-east-1.amazonaws.com/CEUS/Aliados/ceus_logo_volo.jpg"
+accionaImage = "https://letb.s3-sa-east-1.amazonaws.com/CEUS/Aliados/ceus_logo_ACCIONA.jpg"
+CEIImage = "https://letb.s3-sa-east-1.amazonaws.com/CEUS/Aliados/ceus_logo_CEI.jpg"
+COP25Image = "https://letb.s3-sa-east-1.amazonaws.com/CEUS/Aliados/ceus_logo_COP25.jpg"
+COY15Image = "https://letb.s3-sa-east-1.amazonaws.com/CEUS/Aliados/ceus_logo_COY15.jpg"
+CR2Image = "https://letb.s3-sa-east-1.amazonaws.com/CEUS/Aliados/ceus_logo_CR2.jpg"
+FCFMSustentabilidadImage = "https://letb.s3-sa-east-1.amazonaws.com/CEUS/Aliados/ceus_logo_FCFMSustentabilidad.jpg"
+FEUCImage = "https://letb.s3-sa-east-1.amazonaws.com/CEUS/Aliados/ceus_logo_FEUC.jpg"
+INGSinFronterasImage = "https://letb.s3-sa-east-1.amazonaws.com/CEUS/Aliados/ceus_logo_INGsinFronteras.jpg"
+INJUVImage = "https://letb.s3-sa-east-1.amazonaws.com/CEUS/Aliados/ceus_logo_INJUV.jpg"
+LUSHImage = "https://letb.s3-sa-east-1.amazonaws.com/CEUS/Aliados/ceus_logo_LUSH.jpg"
+SCACImage = "https://letb.s3-sa-east-1.amazonaws.com/CEUS/Aliados/ceus_logo_SCAC.jpg"
+SodimacImage = "https://letb.s3-sa-east-1.amazonaws.com/CEUS/Aliados/ceus_logo_Sodimac.jpg"
+UCImage = "https://letb.s3-sa-east-1.amazonaws.com/CEUS/Aliados/ceus_logo_UC.jpg"
+UTFSMImage = "https://letb.s3-sa-east-1.amazonaws.com/CEUS/Aliados/ceus_logo_UTFSM.jpg"
+
+
+
+#subscription
+
+[params.subscription]
+enable = true
+title= "Síguenos en nuestras <span>Redes Sociales</span>"
+
+
+#Contact 
+
+[params.contact]
+enable = true
+title= "our <span> Contact Us </span>"
+subtitle= "SIGN UP FOR EMAIL ALERTS"
+description = "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod"
+
+
+#Footer 
+
+[params.footer]
+enable = true
+contactInfoTitle = "Nuestros datos de <span>contacto</span> "
+socialTitle = "Síguenos en redes <span>sociales</span>"
+
+[[params.footer.contactItem]]
+title="Teléfono"
+icon = "fa fa-phone"
+content = "+56 9 7426 4079"
+
+[[params.footer.contactItem]]
+title="Correo"
+icon = "fa fa-envelope"
+content = "contacto@ceuschile.cl"
+
+[[params.footer.socialLink]]
+title="/ceuschile"
+icon = "fab fa-facebook-square"
+link = "https://fb.com/ceuschile"
+
+
+
+[[params.footer.socialLink]]
+title="@CEUS_Chile"
+icon = "fab fa-twitter-square"
+link = "https://twitter.com/CEUS_Chile"
+
+[[params.footer.socialLink]]
+title="@ceus_chile"
+icon = "fab fa-instagram"
+link = "https://www.instagram.com/ceus_chile"
+
+
+#Footer Copyright
+
+#Footer Copyright Text
+[params.footerCopyright]
+enable = true
+Text = "Copyright 2019 - All Rights Reserved.Design and Developed By Themefisher.com"
+
+
+
+
+#blog 
+[params.blog]
+enable = true
+title = "Lo <span>último</span> de nuestro <span>Blog</span>"
+
+
+#ABOUT US
+
+#axes
+[params.axes]
+enable = true
+title = "Los ejes <span>temáticos</span> de CEUS"
+
+#history
+[params.history]
+enable = true
+title = "Nuestra <span>historia</span>"
+
+#organization
+[params.organization]
+enable = true
+title = "Nuestro <span>organigrama</span>"
+
+
+#team
+
+[params.team]
+enable = true
+title= "Somos un <span>Equipo</span>"
+
+[[params.team.item]]
+img = "https://letb.s3-sa-east-1.amazonaws.com/CEUS/aboutUs/team/ceus_Isabel_Villanueva.jpg"
+Name = "Isabella Villanueva"
+Position = "Presidenta"
+description = "Memorista de ingeniería civil hidráulica, sanitaria y ambiental.Interesada en temas de impacto ambiental, gestión de recursos hídricos y revalorización de recursos. Siempre por una ingeniería al servicio de las necesidades del desarrollo sostenible. Ferviente creyente en la transdisciplina como herramienta y solución a los problemas."
+
+[[params.team.item]]
+img = "https://letb.s3-sa-east-1.amazonaws.com/CEUS/aboutUs/team/ceus_Paula_Castillo.jpg"
+Name = "Paula Castillo"
+Position = "Vicepresidenta"
+description = "Estudiante de Ingeniería Civil Si individualmente somos fuertes, unidos a través de CEUS somos imparables. Sueño con que el país y el mundo sean más amables y empáticos con el entorno."
+
+[[params.team.item]]
+img = "https://letb.s3-sa-east-1.amazonaws.com/CEUS/aboutUs/team/ceus_Fabi%C3%A1n_Provoste.jpg"
+Name = "Fabian Provoste"
+Position = "Secretario General"
+description = "Memorista de Ingeniería Civil, mención Hidráulica, Sanitaria y Ambiental. Me apasiona ser un factor de cambio en cada acción y reflexión, desde la vida personal hasta lo profesional. Me interesa desarrollarme en gestión integral de recursos hídricos e ingeniería ambiental, con una mirada fija hacia el desarrollo sustentable. Ser parte de esta organización representa una forma de concretar y compartir mis valores e ideales junto a más personas que sienten y creen en estos mismos: la sustentabilidad al servicio de la sociedad. Cada grano de arena aporta a cuidar este mundo."
+
+[[params.team.item]]
+img = "https://letb.s3-sa-east-1.amazonaws.com/CEUS/aboutUs/team/ceus_Alexandra_Fuenzalida.jpg"
+Name = "Alexandra Fuenzalida"
+Position = "Directora Ejecutiva"
+description = "Estudiante de Licenciatura en Geofísica. Pertenecer a la ONG fue encontrarme con personas de diferentes gustos, pero con un mismo objetivo: la sustentabilidad y querer cambiar el mundo. Suena imposible, ¡casi estar en las nubes! pero trabajando en equipo, apoyándonos (incluso emocionalmente) y cubriéndonos se han sacado proyectos adelante. Hay 2 elementos fundamentales en mi vida: una es que me apasionan los fenómenos atmosféricos y volcánicos, y la otra es lograr concientizar a mi entorno con mis acciones, donde mi gran sueño es que a través de la sociedad se corra la voz generando un impacto."
+
+[[params.team.item]]
+img = "https://letb.s3-sa-east-1.amazonaws.com/CEUS/aboutUs/team/ceus_MFrancisca_Asenjo.jpg"
+Name = "María Francisca Asenjo"
+Position = "Directora de RR.HH."
+description = "Ingeniera Civil Industrial. Creo en el poder y la capacidad que tenemos como sociedad de plantearnos y realizar cambios en nuestras acciones, disminuyendo o eliminando las cosas que no benefician a nuestro entorno y planeta. Estas acciones pueden venir de personas naturales u organizaciones como esta, lo importante es que cada quién sienta, crea y piense que las actividades que realiza día a día aportan sin importar su tamaño"
+
+[[params.team.item]]
+img = "https://letb.s3-sa-east-1.amazonaws.com/CEUS/aboutUs/team/ceus_Kevin_Flores.jpg"
+Name = "Kevin Flores"
+Position = "Director de Contenidos, página web"
+description = "Ingeniero Civil de Minas. Creo y sueño con el desarrollo de una minería sustentable en Chile y el mundo. Miembro de CEUS desde sus inicios, creo en la colaboración y la cooperación como herramientas para encontrar soluciones holísticas a los problemas que enfrenta esta generación."
+
+[[params.team.item]]
+img = "https://letb.s3-sa-east-1.amazonaws.com/CEUS/aboutUs/team/ceus_Gabriela_Herrera.jpg"
+Name = "Gabriela Herrera"
+Position = "Directora de difusión y RR.SS"
+description = "Estudiante Tercer año de Geofísica. Me interesa el funcionamiento de la tierra, la interacción de sus distintos componentes y cómo desde la actividad humana desequilibramos la balanza de la naturaleza, creo que nuestro deber es volver a poner las cosas en orden, siempre desde una visión crítica, proactiva e integral."
+
+#bylaw
+
+[params.bylaw]
+enable = true
+title= "Nuestros <span>Estatutos</span> y normativas"
+
+
+#form
+[params.form]
+enable = true
+title = "Inscripción de <span>socias y socios</span> de CEUS"
+
+#form
+[params.submit]
+enable = true
+title = "¡Tu inscripción ha sido <span>exitosa!"
+

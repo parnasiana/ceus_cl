@@ -1,0 +1,86 @@
+{{ partial "header.html" . }}
+
+{{ partial "navigation.html" . }}
+
+<section id="form-colaborate">
+  <div id="form-holder">
+    <h1 class=" heading wow fadeInUp" data-wow-duration="300ms" data-wow-delay="300ms">
+      {{ with .Site.Params.form.title }} {{ . | safeHTML }} {{ end }}</h1>
+    </h1>
+    <form class="ceus-form" name="Inscripciones" method="POST" data-netlify="true" action="/submit/">
+      <h2 class="title-in-form">Rellena el formulario y presiona enviar!</h2>
+      <div class="line-form">
+        <input type="checkbox" name="Adultez">
+          <span>Declaro ser mayor de 18 años.</span>
+      </div>
+      <div class="line-form">
+        <input type="checkbox" name="Leyo-y-Acepta">
+          <span>Declaro haber leído detalladamente y acepto lo establecido en los documentos: 
+            <a class="in-form-link" href="https://letb.s3-sa-east-1.amazonaws.com/CEUS/aboutUs/ceus_estatutos.pdf" target="_blank">Estatutos, </a>
+            <a class="in-form-link" href="https://letb.s3-sa-east-1.amazonaws.com/CEUS/aboutUs/ceus_normativaPrevencionYSancionDeAccionesDeViolenciaSexual.pdf"target="_blank"> Normativa de prevención y sanción de acciones de violencia sexual y </a>
+            <a class="in-form-link" href="https://letb.s3-sa-east-1.amazonaws.com/CEUS/aboutUs/ceus_protocoloDeComportamientoYEtica.pdf" target="_blank">Protocolo de Comportamiento y ética</a>
+          </span>
+      </div>
+      <div class="line-form">
+        <input type="checkbox" name="Deposito">
+          <span>Declaro que realicé un deposito/transferencia electrónica de $5.513 CLP (0,2 UF) correspondiente al valor de la membresía,
+             en la Cuenta Vista del Banco Santander N° 7005389512, a nombre de Italo Muñoz, Rut: 19.184.527-7 y correo electrónico
+              inscripcionsocios@ceuschile.cl, escribiendo en el asunto mis datos con el formato "Nombre Apellido CEUS Chile".
+          </span>
+      </div>
+      <div class="group1-form">
+        <label for="Adjunto" class="label-form">Selecciona un archivo como comprobante de depósito o transferencia bancaria</label>
+        <input type="file" id="upload-form" name="Adjunto">
+        <label for="Nombres" class="label-form">Nombre(s)</label>
+        <input type="text" class="input-form" placeholder="Escribe tu nombre completo aquí..." name="Nombres">
+      </div>
+      <div class="group23">
+        <div class="group2-form">
+          <label for="ApellidoPaterno" class="label-form">Apellido Paterno</label>
+          <input type="text" class="input-form" placeholder="Escribe tu apellido parterno aquí..." name="ApellidoPaterno">
+          <label for="ApellidoMaterno" class="label-form">Apellido Materno</label>
+          <input type="text" class="input-form" placeholder="Escribe tu apellido materno aquí..." name="ApellidoMaterno">
+          <label for="Mail" class="label-form">Correo electrónico</label>
+          <input type="text" class="input-form" placeholder="ejemplo@mimail.com" name="Mail">
+        </div>
+        <div class="group3-form">
+          <label for="RUT" class="label-form">R.U.T</label>
+          <input type="text" class="input-form" placeholder="11.111.111-1" name="RUT">
+          <label for="fechaNacimiento" class="label-form">Fecha de Nacimiento</label>
+          <input type="text" class="input-form" placeholder="dd-mm-aaaa" name="fechaNacimiento">
+          <label for="telefono" class="label-form">Teléfono de contacto</label>
+          <input type="text" class="input-form" placeholder="56 9 99999999" name="telefono">
+        </div>
+      </div>
+        <div class="group4-form">
+          <select class="select2-ceus" name="Región">
+            <option value="SelectYourOption" disabled selected>Selecciona la región donde vives</option>
+            <option value="IRegión">Tarapacá</option>
+            <option value="IIRegión">Antofagasta</option>
+            <option value="IIIRegión">Atacama</option>
+            <option value="IVRegión">Coquimbo</option>
+            <option value="VRegión">Valparaíso</option>
+            <option value="VIRegión">Libertador General Bernardo O'Higgins</option>
+            <option value="VIIRegión">Maule</option>
+            <option value="VIIIRegión">Biobío</option>
+            <option value="IXRegión">Araucanía</option>
+            <option value="XRegión">Los Lagos</option>
+            <option value="XIRegión">Aysén</option>
+            <option value="XIIRegión">Magallanes y la Antártica Chilena</option>
+            <option value="RegiónM">Metropolitana de Santiago</option>
+            <option value="XIVRegión">Los Ríos</option>
+            <option value="XVRegión">Arica y Parinacota</option>
+            <option value="XVIRegión">Ñuble</option>
+          </select>
+          <label for="casaEstudios" class="label-form">Institución educativa donde estudias o estudiaste</label>
+          <input type="text" class="input-form" placeholder="Escribe aquí el nombre de tu colegio, Instituto Profesional o Universidad" name="casaEstudios">
+          <label for="CarreraOcupación" class="label-form">Carrera que estudias o tu ocupación</label>
+          <input type="text" class="input-form" placeholder="Carrera técnica o profesional que estudias o trabajo en el que te desempeñas" name="CarreraOcupación">
+          <div data-netlify-recaptcha="true"></div>
+          <input type="submit" value="¡Enviar a CEUS Chile!">
+      </div>
+    </form>
+  </div>  
+</section>
+
+{{ partial "footer.html" . }}

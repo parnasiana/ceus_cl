@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html class="no-js" lang="{{ with .Site.LanguageCode }}{{ . }}{{ else }}en-US{{ end }}">
+	<head>
+		<meta charset="utf-8">
+		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+	    <meta name="description" content="{{if .IsHome}}{{ $.Site.Params.description }}{{else}}{{.Description}}{{end}}">
+	    <meta name="author" content="{{ $.Site.Params.author }}">
+
+		{{ "<!-- Mobile Specific Meta -->" | safeHTML }}
+	    <meta name="viewport" content="width=device-width, initial-scale=1">
+	    {{ hugo.Generator }}
+		
+	    <title> {{ .Title }} </title>
+			<meta name="google-site-verification" content="6CcUUSrybrxMTBZ4M-CN-R4gLbMVnrDRYf2kTgTocfQ" />
+	    {{"<!-- CSS -->"|safeHTML}}
+        <!-- Owl Carousel -->
+
+        <link rel="stylesheet" href="{{"css/owl.carousel.css" | absURL }}">
+        <!-- bootstrap.min css -->
+		<link rel="stylesheet" href="{{"css/bootstrap.min.css" | absURL }}">
+        <!-- Font-awesome.min css -->
+		<link rel="stylesheet" href="{{"css/font-awesome.min.css" | absURL}} ">
+        <!-- Main Stylesheet -->
+        <link rel="stylesheet" href="{{"css/animate.min.css" | absURL}} ">
+
+		<link rel="stylesheet" href="{{"css/main.css" | absURL}} ">
+			<!--SELECT2 JQUERY-->
+	<link rel="stylesheet" href="{{ "css/select2.min.css" | absURL }}"  />
+	<!-- LETB CSS stylesheet -->
+		<link rel="stylesheet" href="{{"css/letb-initial.css" | absURL}} ">
+        <!-- Responsive Stylesheet -->
+		<link rel="stylesheet" href="{{"css/letb-responsive.css" | absURL}} ">
+	<!-- CEUS Font -->	
+		<link href="https://fonts.googleapis.com/css?family=Work+Sans:300,400,500,600,700&display=swap" rel="stylesheet">
+		<link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.2/css/all.css" integrity="sha384-XxNLWSzCxOe/CFcHcAiJAZ7LarLmw3f4975gOO6QkxvULbGGNDoSOTzItGUG++Q+" crossorigin="anonymous">
+
+		{{ range .Site.Params.custom_css }}
+        <link rel="stylesheet" href="{{ . | absURL }}">
+        {{ end }}
+				
+		<script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
+	</head>
+	<body>
+
+	

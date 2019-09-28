@@ -1,0 +1,857 @@
+/*		Tablet Layout: 768px.
+		Gutters: 24px.
+		Outer margins: 28px.
+		Inherits styles from: Default Layout.
+-----------------------------------------------------------------
+cols    1     2      3      4      5      6      7      8
+px      68    160    252    344    436    528    620    712    */
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  /*--
+    custom heading Start
+--*/
+  .title {
+    text-align: left;
+  }
+  /*--
+    nav Start
+--*/
+  nav .block {
+    padding-left: 0px;
+    padding-right: 0px;
+    padding-top: 20px;
+  }
+  nav .block .navbar-brand img {
+    padding-left: 25px;
+  }
+  /*--
+    slider Start
+--*/
+  #slider .block h3 {
+    text-align: left;
+  }
+  #slider .block .owl-carousel img {
+    padding-right: 0px;
+    width: 95%;
+  }
+  /*--
+    blog Start
+--*/
+  #blog .block {
+    text-align: center;
+  }
+  #blog .block ul {
+    padding-bottom: 40px;
+  }
+  #blog .block ul li {
+    width: 100%;
+  }
+  #blog .block ul li h3 {
+    padding: 0px 0px 30px;
+  }
+  #blog .block ul li .blog-img {
+    width: 50%;
+  }
+  #blog .block ul li .blog-img img {
+    width: 100%;
+  }
+  #blog .block ul li .blog-img-2 {
+    width: 50%;
+  }
+  #blog .block ul li .blog-img-2 img {
+    width: 100%;
+  }
+  #blog .block ul li .content-left {
+    padding: 40px 20px 0;
+  }
+  #blog .block ul li .content-right {
+    padding: 40px 20px 0;
+  }
+  #blog .block .btn-more-info {
+    float: none;
+    margin-top: 30px;
+  }
+  #blog .block .btn-more-info:hover {
+    border-radius: 10px;
+  }
+  /*--
+    price Start
+--*/
+  #price .block p {
+    padding: 30px 0 0;
+  }
+  #price .block .pricing-list {
+    text-align: left;
+  }
+  /*--
+    contact-us Start
+--*/
+  #contact-us {
+    padding: 60px 0 0;
+  }
+  #contact-us .block {
+    text-align: center;
+  }
+  #contact-us .block .title {
+    text-align: left;
+  }
+  #contact-us .block a {
+    padding: 15px 80px;
+    float: inherit;
+  }
+  /*--
+    footer Start
+--*/
+  #footer .block {
+    padding-bottom: 20px;
+  }
+  #footer .block h3 {
+    padding-bottom: 10px;
+  }
+  /*--
+    footer-bottom Start
+--*/
+  #footer-bottom .block .navbar-nav {
+    float: inherit;
+    width: 70%;
+    margin: 0 auto;
+  }
+  #footer-bottom .block p {
+    text-align: center;
+    padding-top: 0px;
+  }
+}
+/*		Mobile Layout: 320px.
+		Gutters: 24px.
+		Outer margins: 34px.
+		Inherits styles from: Default Layout.
+---------------------------------------------
+cols    1     2      3
+px      68    160    252    */
+@media only screen and (max-width: 767px) {
+  /*--
+    custom heading Start
+--*/
+  .heading {
+    text-align: center;
+    font-size: 22px;
+  }
+  .heading span {
+    font-size: 28px;
+  }
+  /*--
+    custom heading Start
+--*/
+  .title {
+    text-align: left;
+  }
+  /*--
+    nav Start
+--*/
+  nav {
+    position: relative;
+  }
+
+  #navigation-stickywrapper{
+    width: 100%;
+  }
+  nav .block {
+    padding: 0px;
+    margin-bottom: 0px;
+    background: -webkit-linear-gradient(right, rgba(255, 255, 255, 0.6), #ffffff);
+    background: -o-linear-gradient(right, rgba(255, 255, 255, 0.6), #ffffff);
+    background: -moz-linear-gradient(right, rgba(255, 255, 255, 0.6), #ffffff);
+    background: linear-gradient(right, rgba(255, 255, 255, 0.6), #ffffff);
+  }
+  nav .block .navbar-brand img {
+    padding-left: 0;
+  }
+  nav .block .navbar-default {
+    margin-top: 0;
+    padding: 0;
+  }
+
+  .container-fluid {
+    background-color: #158976;
+  }
+  nav .block .navbar-default .navbar-header {
+    padding-bottom: 0;
+    margin-top: 0;
+  }
+  nav .block .navbar-default .navbar-header .navbar-toggle {
+    margin-top: 0px;
+    border: none;
+    padding: 30px;
+  }
+  nav .block .navbar-default .navbar-header .navbar-toggle .icon-bar {
+    background: #fff;
+  }
+  nav .block .navbar-default .navbar-header .navbar-toggle:focus {
+    background: none;
+  }
+  nav .block .navbar-default .navbar-header .navbar-toggle:active {
+    background: none;
+  }
+  nav .block .navbar-default .navbar-header .navbar-toggle:hover {
+    background: none;
+  }
+  nav .block .navbar-default .navbar-brand {
+    padding: 20px 10%;
+}
+
+.navbar-toggle .icon-bar+.icon-bar {
+  margin-top: 8px;
+}
+
+.navbar-toggle .icon-bar {
+  display: block;
+  width: 30px;
+  height: 4px;
+  border-radius: 1px;
+}
+
+.navbar-toggle {
+  position: relative;
+  float: right;
+  padding: 10px;
+  margin-top: 0;
+  margin-right: 0;
+  margin-bottom: 0;
+  background-color: transparent;
+  background-image: none;
+  border: 1px solid transparent;
+  border-radius: 4px;
+}
+
+.navbar-default .navbar-collapse, .navbar-default .navbar-form {
+  background-color: #43c11f;
+}
+
+.container>.navbar-header, .container-fluid>.navbar-header, .container>.navbar-collapse, .container-fluid>.navbar-collapse {
+  margin-right: 0;
+  margin-left: 0;
+  width: 100%;
+}
+.navbar-default .navbar-collapse, .navbar-default .navbar-form {
+  border-color: #43C11F;
+}
+
+.navbar-collapse {
+  padding: 0 10%;
+}
+
+nav .block .navbar-default .navbar-nav {
+  padding: 0;
+}
+
+.navbar-nav {
+  margin: 0;
+}
+.nav>li{
+  padding: 10px 0;
+}
+
+/*-- Hero-area -- */
+.phraseimg-ceus {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 70%;
+  margin: 0 auto;
+  padding: 15px 0;
+}
+
+h6.slide-text {
+  font-family: 'Work Sans', sans-serif;
+  font-size:26px;
+  color: #FFF;
+  text-transform: uppercase;
+  width: 100%;
+  font-weight: 600;
+  line-height: 32px;
+  padding: 20px 0;
+  text-align: center;
+}
+
+.frame-ceus-img {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+a.about-link-ceus {
+  font-size: 16px;
+  margin-top: 10px;
+}
+
+#hero-arrow-r {
+  right: 8%;
+  font-size: 48px;
+  cursor: pointer;
+  color: rgb(114, 145, 250);
+  top: 250px;
+}
+
+#hero-arrow-l {
+  left: 8%;
+  font-size: 48px;
+  cursor: pointer;
+  color: rgb(114, 145, 250);
+  top: 250px;
+}
+
+  /*--
+    slider Start
+--*/
+
+.title h3 {
+  text-transform: none;
+  font-size: 21px;
+  font-weight: 600;
+  text-align: center;
+}
+
+.owl-next{
+  display: none;
+}
+
+.owl-dot {
+  width: 15px;
+  height: 15px;
+  border-radius: 15px;
+  margin: 0 8px;
+}
+
+  #slider .block {
+    padding-left: 0px;
+    padding-right: 0px;
+  }
+  #slider .block .owl-carousel {
+    padding-top: 30px;
+    position: relative;
+  }
+  #slider .block .owl-carousel div img {
+    width: 100%;
+    border-radius: 5px;
+    padding-right: 0px;
+  }
+  /*--
+    about-us Start
+--*/
+  #about-us {
+    padding: 0;
+  }
+
+.heading {
+  padding: 50px 0 20px;
+
+}
+
+.heading:before {
+  content: "";
+  position: absolute;
+  left: 50%;
+  bottom: 0;
+  width: 150px;
+  height: 2px;
+  background: #158976;
+  margin-left: -70px;
+}
+
+  #about-us .block p {
+    padding: 40px 0px 0px;
+  }
+
+/*--allies--*/
+
+.ceus-allies {
+  width: 100%;
+  height: auto;
+  border-radius: 100%;
+  margin: 25px;
+}
+
+  /*--custom title Start--*/
+  #title h2 {
+    font-size: 20px;
+  }
+  #title h2 span {
+    font-size: 25px;
+  }
+  /*--
+    blog Start
+--*/
+  #blog .block ul {
+    padding-bottom: 30px;
+  }
+  #blog .block ul li {
+    float: none;
+    width: 100%;
+    height: 100%;
+  }
+  #blog .block ul li .blog-img {
+    float: none;
+    width: 100%;
+  }
+  #blog .block ul li .blog-img img {
+    width: 100%;
+  }
+  #blog .block ul li .blog-img-2 {
+    float: none;
+    width: 100%;
+  }
+  #blog .block ul li .blog-img-2 img {
+    width: 100%;
+  }
+  #blog .block ul li .content-right {
+    float: none;
+    width: 100%;
+    padding: 20px 35px;
+  }
+  #blog .block ul li .content-right:after {
+    display: none;
+  }
+  #blog .block ul li .content-left {
+    float: none;
+    width: 100%;
+    padding: 20px 35px;
+  }
+  #blog .block ul li .content-left:after {
+    display: none;
+  }
+  #blog .block .btn-more-info {
+    float: none;
+    margin-top: 30px;
+    padding: 28px 85px;
+  }
+  #blog .block .btn-more-info:hover {
+    border-radius: 10px;
+  }
+  /*--Form-call--*/
+
+  #price {
+    padding: 50px 0;
+  }
+
+  h6.call-text{
+    font-size: 40px;
+    padding: 0 0 40px;
+    line-height: 40px;
+  }
+
+  .text-call{
+    width:100%;
+    padding: 0 0 50px;
+  }
+
+  p.explain-call, a.link-toform {
+    font-family: 'Work Sans', sans-serif;
+    font-size: 21px;
+    color: #FFF;
+    line-height: 23px;
+    text-align: justify;
+}
+
+.img-responsive-square{
+  width: 100%;
+}
+
+  #price .block p {
+    padding: 40px 0px 0px;
+  }
+  #price .block .pricing-list {
+    text-align: left;
+  }
+  #price .block .pricing-list ul li .item {
+    float: none;
+  }
+  #price .block .pricing-list ul li .item .item-title .border-bottom {
+    display: none;
+  }
+  #price .block .pricing-list ul li .item .item-title span {
+    padding-top: 10px;
+    display: block;
+    float: none;
+  }
+  #price .block .pricing-list .btn {
+    float: inherit;
+    padding: 28px 100px;
+  }
+
+  .form-call {
+    flex-direction: column;
+  }
+
+  /*--
+    subscribe Start
+--*/
+
+#subscribe {
+  padding: 0;
+}
+
+  #subscribe .block h1 {
+    font-size: 30px;
+  }
+  #subscribe .block h1 span {
+    font-size: 25px;
+  }
+  #subscribe .block form .form-group .input-group {
+    width: 100%;
+  }
+  #subscribe .block form .form-group .input-group .form-control {
+    width: 100%;
+    background: #fff;
+    opacity: 0.9;
+    border: none;
+    height: 65px;
+    border-radius: 0px;
+    float: inherit;
+  }
+  #subscribe .block form .form-group .input-group .input-group-addon {
+    padding: 0px;
+    border: none;
+    background: none;
+    display: block;
+    margin-top: 20px;
+  }
+  /*--
+    contact-us Start
+--*/
+
+.rrss-group{
+  flex-direction: column;
+}
+
+.instafeed{
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+}
+
+.post-insta{
+  margin-right: 0px;
+  margin-bottom: 20px;
+}
+
+.youtube-tw{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.twitter-box{
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  margin-top: 70px;
+}
+
+.youtube-box{
+  margin-top: 70px;
+  width: 100%;
+}
+
+
+  #contact-us {
+    padding: 60px 0 0;
+  }
+  #contact-us .block a {
+    padding: 20px 80px;
+    width: 100%;
+    float: inherit;
+  }
+  /*--
+    footer Start
+--*/
+
+.foot-logo img{
+  width: 100%;
+}
+
+.col-md-4{
+  padding-bottom: 50px;
+
+}
+
+#footer .block h3, #footer .block .info ul li h4, #footer .block .info ul li p, #footer .block .info ul li h4 i, .social-media-link h3 {
+  color: #FFF;
+  font-size: 18px;
+}
+
+  #footer .block {
+    padding-bottom: 50px;
+  }
+  #footer .block .info ul li {
+    width: 100%;
+    margin-right: 0px;
+  }
+  #footer .block .portfolio img {
+    margin-top: 20px;
+  }
+  #footer .block .portfolio ul li {
+    margin-right: 0px;
+    display: inline-block;
+  }
+  /*--
+    footer-bottom Start
+--*/
+  #footer-bottom .block .navbar {
+    display: none;
+  }
+  #footer-bottom .block p {
+    text-align: center;
+    padding-top: 0px;
+  }
+
+  #footer{
+    padding: 50px 10% 0;
+  }
+
+/*--- ABOUT US---*/
+
+/*--- Hero-about--*/
+
+.welcome-about{
+  background-image: url(https://letb.s3-sa-east-1.amazonaws.com/CEUS/aboutUs/ceus_hero-about-responsive.jpg);
+  width: 100%;
+  height: 700px;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+
+}
+
+.who-descript{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin: 0 10% 50px;
+}
+
+.who-title{
+  font-size: 30px;
+  margin-bottom: 30px;
+}
+
+.descript-text{  
+  padding: 30px;
+  font-size: 16px;
+  width: 100%;
+  border-radius: 20px;
+}
+
+
+/*--Axes--*/
+#axes{
+  padding: 0;
+}
+
+#axes-holder{
+  height: 610px;
+  padding: 0 10%;
+}
+
+.axes-draw {
+  width: 280px;
+  height: 350px;
+  margin: 200px auto;
+  position: absolute;
+}
+
+.logo-axes {
+  position: relative;
+  width: 80px;
+  height: 80px;
+  border-radius: 40px;
+}
+
+.logo-axes img {
+  width: 60px;
+  padding: 8px;
+  margin: 3px;
+}
+
+.text-axes {
+  font-size: 14px;
+}
+
+.education{
+  top: 104px;
+  right: 8px;
+}
+
+.society{
+  bottom: -208px;
+  left: 105px;
+}
+
+.environment{
+  top: 328px;
+  right: 16px;
+  line-height: 16px;
+}
+
+.development{
+  bottom: -138px;
+  line-height: 16px;
+  right: 91px;
+}
+
+.axespop-content {
+  height: 350px;
+  padding: 5%;
+}
+
+.appear{
+  top: -40px;
+}
+
+.top-axesIn{
+  top:-45px;
+}
+
+.axes-close{
+  font-size:24px;
+  margin-bottom: 16px;
+}
+
+.axesIn-title{
+  font-size: 24px;
+}
+
+.axesIn-text {
+  font-size: 11px;
+  text-align: justify;
+  width: 100%;
+  line-height: 12px;
+  margin-top: 10px;
+}
+
+.axesIn-img {
+  width: 40%;
+  margin-left: 62%;
+}
+
+/*---BYLAW---*/
+
+.btns-bylaw{
+  flex-direction: column;
+  padding: 50px 10%;
+}
+
+.btn-bylaw{
+  margin: 0 auto 20px;
+}
+
+/*--BLOGS POST--*/
+
+#author-about {
+  flex-direction: column;
+}
+
+.av-holder{
+  width: 100%;
+}
+
+.avatar-author{
+    border-radius: 100%;
+    border: 2px solid #FFF;
+}
+
+.author-title {
+  font-weight: bold;
+  font-size: 18px;
+  color: #FFF;
+  text-align: justify;
+  line-height: 20px;
+  margin-top: 30px;
+}
+
+.author-data{
+  width: 100%;
+}
+
+.name-age-author {
+  flex-direction: column;
+  font-size: 16px;
+  margin-top: 20px;
+}
+
+.post-single-content p {
+  width: 100%;
+}
+
+.about-author-text{
+  color: #FFF;
+  font-style: italic;
+  text-align: justify;
+}
+
+.rrss-author {
+  flex-direction: column;
+  margin: 20px 0;
+}
+
+/*-----FORM-----*/
+
+#form-holder{
+  padding: 50px 10%;
+}
+
+.ceus-form{
+  margin-top: 50px;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 1px 1px 1px 0px rgba(0,0,0,0.75);
+}
+
+.title-in-form{
+  text-align: left;
+}
+
+.line-form span{
+  text-align: justify;
+}
+
+label.label-form{
+  font-size: 10px;
+}
+
+.group23{
+  flex-direction: column;
+}
+
+.group2-form{
+  width: 100%;
+}
+
+.group3-form{
+  width: 100%;
+}
+
+input::placeholder{
+  font-size: 10px;
+}
+
+/*---SUBMIT FORM---*/
+
+#submit-holder{
+  padding: 50px 10%;
+}
+
+.thanks-mssg{
+  width: 100%;
+  margin:50px auto;
+}
+
+.thanks-title {  
+  font-size: 30px;
+}
+
+.post-element{
+  width: 100%;
+}
+
+}

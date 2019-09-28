@@ -1,0 +1,22 @@
+{{ if .Site.Params.blog.enable}}
+    <section id="blog">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="block">
+                        <h1 class="heading">{{ with .Site.Params.blog.title }} {{ . | safeHTML }} {{ end }}</h1>
+                        <ul class="post-container">
+                            {{ range .Data.Pages }}
+                            <li class="post-element">
+                                <a href="{{ .Permalink }}" class="title-card-post">{{ .Title }}</a>
+                                <span>Escrito por {{ .Params.AName }}</span>
+                            </li>
+                            {{ end }}
+                         </ul>
+                    </div>
+                </div><!-- .col-md-12 close -->
+            </div><!-- .row close -->
+        </div><!-- .containe close -->
+    </section><!-- #blog close -->
+
+{{end}}
