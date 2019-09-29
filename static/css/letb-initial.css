@@ -1047,6 +1047,7 @@ a.download-statutes{
     background-color: #FFF;
     padding: 30px;
     display: flex;
+    font-weight: lighter;
     flex-direction: column;
     box-shadow: 2px 2px 2px 0px rgba(0,0,0,0.75);
 }
