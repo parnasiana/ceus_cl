@@ -6,10 +6,19 @@
     <description>Recent content in Blogs on CEUS Chile | La red de sustentabilidad</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 05 Sep 2019 10:26:34 -0400</lastBuildDate>
+    <lastBuildDate>Fri, 27 Sep 2019 20:34:50 +0000</lastBuildDate>
     
 	<atom:link href="https://www.ceuschile.cl/blog/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Estamos trabajando en crear nuevas entradas de blog</title>
+      <link>https://www.ceuschile.cl/2019-09-28-estamos-trabajando-en-crear-nuevas-entradas-de-blog/</link>
+      <pubDate>Fri, 27 Sep 2019 20:34:50 +0000</pubDate>
+      
+      <guid>https://www.ceuschile.cl/2019-09-28-estamos-trabajando-en-crear-nuevas-entradas-de-blog/</guid>
+      <description>Desde esta semana que estoy trabajando en la automatización de la creación de entradas nuevas para el blog de Ceus, permitiéndoles crear entradas en una interfaz más amigable, sin código de programación y que se publica casi instantáneamente.</description>
+    </item>
     
     <item>
       <title>Día Internacional de las aves playeras</title>
