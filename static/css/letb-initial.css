@@ -13,6 +13,10 @@ h6 {
   font-family:'Work Sans', sans-serif;
 }
 
+a{
+    font-weight: 500;
+}
+
 /*--- NAV --- */
 .container {
     width: 100%;
