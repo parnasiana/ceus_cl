@@ -3,7 +3,7 @@ title: >-
   ¿Por qué nosotros como consumidores debemos disminuir el consumo de las bolsas
   plásticas? Una invitación a la reflexión de un alma en cambio
 date: 2019-07-03T18:14:47.242Z
-draft: true
+draft: false
 image: /uploads/descarga.jpg
 tags:
   - Medio Ambiente
