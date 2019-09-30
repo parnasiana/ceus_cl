@@ -1,6 +1,6 @@
 ---
 title: 'Marcha #15M: ¿Por qué marchamos?'
-date: 2019-08-30T15:01:15.000Z
+date: 2019-03-13T14:01:15.000Z
 draft: false
 image: 'https://letb.s3-sa-east-1.amazonaws.com/CEUS/blog/FOTO+4.jpg'
 tags:
@@ -12,7 +12,7 @@ AAge: 29 años
 ATwitter: 'https://twitter.com/er_kevin'
 Aarrobat: '@er_kevin'
 AInstagram: 'https://www.instagram.com/quemelleveelviento/'
-Arrobai: '@quemelleveelviento'
+Aarrobai: '@quemelleveelviento'
 Adescription: >-
   Director de Contenido y Página Web de CEUS CHILE. Ingeniero civil de minas de
   profesión, interesado en la sustentabilidad en la minería y otros temas.
