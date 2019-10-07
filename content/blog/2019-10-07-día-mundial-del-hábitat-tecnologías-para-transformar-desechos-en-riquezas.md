@@ -43,17 +43,9 @@ Para avanzar hacia un mundo en que el hábitat en que vivimos sea adecuado para 
 
 > Referencias
 >
-> \-	
+> \-	<https://new.unhabitat.org>
 >
-> <https://new.unhabitat.org>
->
->  
->
-> \-	UN/DESA (2018): World Economic and Social Survey 2018. Frontier technologies for sustainable development (
->
-> <https://www.un.org/development/desa/dpad/wp-content/uploads/sites/45/publication/WESS2018_full_web.pdf>
->
-> )
+> \-	UN/DESA (2018): World Economic and Social Survey 2018. Frontier technologies for sustainable development (<https://www.un.org/development/desa/dpad/wp-content/uploads/sites/45/publication/WESS2018_full_web.pdf>)
 >
 > \-	UNCTAD (2018): Technology and Innovation Report 2018. Harnessing Frontier Technologies for Sustainable Development (
 >
