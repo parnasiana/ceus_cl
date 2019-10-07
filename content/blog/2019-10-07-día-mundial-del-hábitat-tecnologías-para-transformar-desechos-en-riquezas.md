@@ -41,16 +41,34 @@ d) Contenedores inteligentes que utilizan inteligencia artificial y/o sensores p
 
 Para avanzar hacia un mundo en que el hábitat en que vivimos sea adecuado para todo ser vivo, en el marco del Día Mundial del Hábitat 2019, secundamos el llamado de ONU-Habitat a la comunidad mundial a: 1) reconsiderar los desechos como un recurso valioso; 2) a comprometerse con la gestión integrada de residuos sostenible; 3) a investigar sobre nuevas tecnologías de vanguardia que tengan el potencial de mejorar sustancialmente la gestión de residuos; y 4) a invertir en soluciones alternativas para alcanzar una economía circular.
 
-
-
-## Referencias
-
-\-	<https://new.unhabitat.org> 
-
-\-	UN/DESA (2018): World Economic and Social Survey 2018. Frontier technologies for sustainable development (<https://www.un.org/development/desa/dpad/wp-content/uploads/sites/45/publication/WESS2018_full_web.pdf>)
-
-\-	UNCTAD (2018): Technology and Innovation Report 2018. Harnessing Frontier Technologies for Sustainable Development (<https://unctad.org/en/PublicationsLibrary/tir2018_en.pdf>)
-
-\-	The World Bank (2018): What a Waste 2.0. A global Snapshot of Solid Waste Management to 2050 (<https://www.worldbank.org/en/news/infographic/2018/09/20/what-a-waste-20-a-global-snapshot-of-solid-waste-management-to-2050>)
-
-\-	Unites Nations World Water Assessment Programme (2017): The United Nations World Water Development Report 2017. Wastewater: The Untapped Resource ([https://www.unido.org/sites/default/files/2017-03/UN_World_Water_Development\_Report\_-_Full_0.pdf](https://www.unido.org/sites/default/files/2017-03/UN_World_Water_Development_Report_-_Full_0.pdf))
+> Referencias
+>
+> \-	
+>
+> <https://new.unhabitat.org>
+>
+>  
+>
+> \-	UN/DESA (2018): World Economic and Social Survey 2018. Frontier technologies for sustainable development (
+>
+> <https://www.un.org/development/desa/dpad/wp-content/uploads/sites/45/publication/WESS2018_full_web.pdf>
+>
+> )
+>
+> \-	UNCTAD (2018): Technology and Innovation Report 2018. Harnessing Frontier Technologies for Sustainable Development (
+>
+> <https://unctad.org/en/PublicationsLibrary/tir2018_en.pdf>
+>
+> )
+>
+> \-	The World Bank (2018): What a Waste 2.0. A global Snapshot of Solid Waste Management to 2050 (
+>
+> <https://www.worldbank.org/en/news/infographic/2018/09/20/what-a-waste-20-a-global-snapshot-of-solid-waste-management-to-2050>
+>
+> )
+>
+> \-	Unites Nations World Water Assessment Programme (2017): The United Nations World Water Development Report 2017. Wastewater: The Untapped Resource (
+>
+> [https://www.unido.org/sites/default/files/2017-03/UN_World_Water_Development\_Report\_-_Full_0.pdf](https://www.unido.org/sites/default/files/2017-03/UN_World_Water_Development_Report_-_Full_0.pdf)
+>
+> )
