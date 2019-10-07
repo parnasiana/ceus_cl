@@ -1,7 +1,7 @@
 ---
 title: 'Día Mundial del Hábitat: Tecnologías para transformar desechos en riquezas'
 date: 2019-10-07T16:43:18.001Z
-draft: true
+draft: false
 image: /uploads/dmhabitat.jpg
 tags:
   - Medio Ambiente
