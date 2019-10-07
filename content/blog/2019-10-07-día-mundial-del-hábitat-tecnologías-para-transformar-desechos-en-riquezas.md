@@ -41,7 +41,9 @@ d) Contenedores inteligentes que utilizan inteligencia artificial y/o sensores p
 
 Para avanzar hacia un mundo en que el hábitat en que vivimos sea adecuado para todo ser vivo, en el marco del Día Mundial del Hábitat 2019, secundamos el llamado de ONU-Habitat a la comunidad mundial a: 1) reconsiderar los desechos como un recurso valioso; 2) a comprometerse con la gestión integrada de residuos sostenible; 3) a investigar sobre nuevas tecnologías de vanguardia que tengan el potencial de mejorar sustancialmente la gestión de residuos; y 4) a invertir en soluciones alternativas para alcanzar una economía circular.
 
-Referencias: 
+
+
+## Referencias
 
 \-	<https://new.unhabitat.org> 
 
