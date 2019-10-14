@@ -1,7 +1,7 @@
 ---
 title: 'Refugiados climáticos: ¿Se pueden evitar los desastres naturales?'
 date: 2019-10-13T11:38:12.701Z
-draft: true
+draft: false
 image: /uploads/refugiadosclimaticos.jpg
 tags:
   - Opinión
