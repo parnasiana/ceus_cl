@@ -1,7 +1,7 @@
 ---
 title: Día del Forjador Ambiental
 date: 2019-10-18T19:45:05.068Z
-draft: true
+draft: false
 image: /uploads/dia-forjador.png
 tags:
   - Medio Ambiente
