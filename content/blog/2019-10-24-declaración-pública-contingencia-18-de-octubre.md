@@ -1,7 +1,7 @@
 ---
 title: DECLARACIÓN PÚBLICA CONTINGENCIA 18 DE OCTUBRE
 date: 2019-10-20T13:32:50.235Z
-draft: true
+draft: false
 image: /uploads/fondo-negro.jpg
 tags:
   - Opinión
