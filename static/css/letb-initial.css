@@ -2,6 +2,7 @@ body {
     font-family: 'Work Sans', sans-serif;
     width: 100%;
     margin: 0;
+    font-weight: 500;
 }
 h1,
 h2,
@@ -913,8 +914,17 @@ a.download-statutes{
 .post-single-content p{
     font-family: 'Work Sans', sans-serif;
     text-align: justify;
-    line-height: 26px;
+    line-height: 18px;
     font-weight: lighter;
+    margin-bottom: 24px;
+}
+
+p {
+    font-size: 16px;
+}
+
+ol li {
+    margin-bottom: 24px;
 }
 
 .agregar-foto{
