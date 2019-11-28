@@ -1,6 +1,6 @@
 ---
 title: "Municipio de Cerrillos y Sociedad Civil por la Acción Climática llegan a acuerdo para realizar COP25 Paralela"
-date: 2019-08-30T14:41:52-04:00
+date: 2019-07-25
 draft: false
 image: "https://letb.s3-sa-east-1.amazonaws.com/CEUS/blog/FOTO+3.jpeg"
 tags:

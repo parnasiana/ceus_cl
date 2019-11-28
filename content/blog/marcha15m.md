@@ -1,6 +1,6 @@
 ---
 title: 'Marcha #15M: ¿Por qué marchamos?'
-date: 2019-03-15T15:01:15.000Z
+date: 2019-03-12
 draft: false
 image: 'https://letb.s3-sa-east-1.amazonaws.com/CEUS/blog/FOTO+4.jpg'
 tags:

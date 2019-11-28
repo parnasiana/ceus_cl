@@ -1,6 +1,6 @@
 ---
 title: "La juventud como agente de cambio: Greta Thunberg."
-date: 2019-08-30T20:33:53-04:00
+date: 2019-08-12
 draft: false
 image: "https://letb.s3-sa-east-1.amazonaws.com/CEUS/blog/FOTO+2.png"
 tags:
