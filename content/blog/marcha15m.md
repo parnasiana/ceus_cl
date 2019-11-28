@@ -12,7 +12,7 @@ AAge: 29 años
 ATwitter: 'https://twitter.com/er_kevin'
 Aarrobat: '@er_kevin'
 AInstagram: 'https://www.instagram.com/quemelleveelviento/'
-Arrobai: '@quemelleveelviento'
+Aarrobai: '@quemelleveelviento'
 Adescription: >-
   Director de Contenido y Página Web de CEUS CHILE. Ingeniero civil de minas de
   profesión, interesado en la sustentabilidad en la minería y otros temas.
