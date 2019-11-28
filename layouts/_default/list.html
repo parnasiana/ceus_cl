@@ -6,7 +6,7 @@
   <h1 class="list-title">{{ .Title }}</h1>
   <ul class="post-container">
     {{ range .Data.Pages }}
-      <li class="post-element">
+      <li class="post-element tag-margin">
         <a href="{{.RelPermalink}}" class="title-card-post">{{ .Title }}</a>
         <span>Escrito por {{ .Params.AName}}</span>
       </li>
