@@ -20,7 +20,7 @@ Adescription: >-
 ---
 Como muchos saben, desde el lunes 2 y hasta el viernes 13 de diciembre se desarrolla la Conferencia de las Partes COP25 en Madrid, España, después de que el Gobierno de Chile decidiera dar un paso al costado y no albergar dicha cita en la ciudad de Santiago, como estaba planeado. Esto ha complicado la asistencia de organizaciones chilenas a esta cita, por la distancia y las dificultades de movilizarse hasta el país europeo.
 
-A pesar de todo esto, algunas personas de la organización hicieron un esfuerzo y lograron llegar a Madrid, donde están participando de esta instancia. Se trata de Isabella Villanueva, Paula Castillo y Javiera Contreras, quienes representan a CEUS CHILE en su rol como Organización Observadora de las negociaciones que se realizan en la llamada "Blue Zone": un espacio donde los líderes se reúnen a discutir la implementación del Acuerdo de París, que entra en vigenia el próximo año.
+A pesar de todo esto, algunas personas de la organización hicieron un esfuerzo y lograron llegar a Madrid, donde están participando de esta instancia. Se trata de Isabella Villanueva, Paula Castillo y Javiera Contreras, quienes representan a CEUS CHILE en su rol como Organización Observadora de las negociaciones que se realizan en la llamada "Blue Zone": un espacio donde los líderes se reúnen a discutir la implementación del Acuerdo de París, que entra en vigencia el próximo año.
 
 ![Javiera, Paula e Isabella en la inauguración de COP25](/uploads/participacion_ceus_cop.jpg "Javiera, Paula e Isabella en la inauguración de COP25")
 
