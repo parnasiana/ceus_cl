@@ -16,7 +16,7 @@ Adescription: >-
   Director de Contenido y Página Web de CEUS CHILE. Ingeniero civil de minas de
   profesión, interesado en la sustentabilidad en la minería y otros temas.
 ---
-Nuestra Agenda de Acción Climática Juvenil Chile es un hecho 😍 puedes leerla en [este enlace](https://bit.ly/37HPTrF) y enterarte de todas nuestras propuestas en un plazo inmediato, corto y mediano 👏🏼. ¿La prefieres en inglés? Puedes encontrarla en [el siguente enlace](https://bit.ly/360sfVQ).
+Nuestra Agenda de Acción Climática Juvenil Chile es un hecho 😍 puedes leerla [aquí](https://bit.ly/37HPTrF) y enterarte de todas nuestras propuestas en un plazo inmediato, corto y mediano 👏🏼. ¿La prefieres en inglés? Puedes encontrarla [aquí](https://bit.ly/360sfVQ).
 
 La “Agenda de Acción Climática Juvenil Chile” es un documento propositivo que nace desde jóvenes de Chile frente a las problemáticas propiciadas por la actual Emergencia Climática y Ecológica. Nace al alero del IV Congreso Estudiantil Universitario de Sustentabilidad “Chile en el Escenario Mundial: de cara a la COP25” que reunió, entre el 21 y 23 de agosto, a 330 estudiantes de educación superior interesadas/os en la sustentabilidad y en la incidencia política de los jóvenes.
 
