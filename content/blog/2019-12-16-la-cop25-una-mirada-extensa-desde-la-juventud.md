@@ -12,7 +12,7 @@ AImage: /uploads/ceus_ivillanueva.jpg
 AAge: 25 años
 ATwitter: 'https://twitter.com/isavillanuevag_'
 Aarrobat: '@isavillanuevag_'
-AInstagram: 'https://www.instagram.com/isavillanuevag'
+AInstagram: 'https://www.instagram.com/ivillanuevag'
 Aarrobai: '@ivillanuevag'
 Adescription: >-
   Memorista de Ingeniería Civil Hidráulica, Sanitaria y Ambiental trabajando e
